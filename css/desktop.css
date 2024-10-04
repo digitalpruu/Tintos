@@ -8,7 +8,7 @@
   padding-left: 10px;
 }
 .nav-container nav .logo-nav img {
-  width: 8vw;
+  width: 12vw;
 }
 .nav-container nav .menu {
   display: flex;
@@ -32,15 +32,16 @@ main .hero .hero-title div h1 {
   font-size: 7rem;
 }
 main .hero .hero-title div h2 {
+  color: whitesmoke;
   font-size: 3.5rem;
 }
 main .hero .hero-image {
   width: 50%;
 }
 main .hero .hero-image img {
-  margin: 0 auto;
-  border-radius: 0;
+  margin: o auto;
   width: 100%;
+  border-radius: 0;
 }
 main .product .product-section .product-card {
   width: 30vw;

@@ -16,15 +16,15 @@ html {
 .nav-container {
   width: 100%;
   height: auto;
-  background: #209ab2;
+  background: #a09f9f;
 }
 .nav-container nav .logo-nav {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .nav-container nav .logo-nav img {
-  width: 60vw;
+  width: 80vw;
 }
 .nav-container nav .menu {
   padding-top: 32px;
@@ -48,9 +48,6 @@ html {
 
 main {
   width: 100%;
-}
-main .hero {
-  padding-bottom: 60px;
 }
 main .hero .hero-title {
   color: black;
@@ -91,7 +88,7 @@ main .product .product-section {
   scroll-snap-type: x proximity;
 }
 main .product .product-section .product-card {
-  background-color: #318eff;
+  background-color: rgba(0, 151, 151, 0.737254902);
   scroll-snap-align: center;
   margin: 0 10px;
   width: 40vw;
@@ -126,8 +123,8 @@ main .catalogue img {
   width: 100%;
 }
 main .about-us {
-  padding-top: 60px;
-  background-color: rgba(131, 217, 246, 0.3411764706);
+  padding-top: 30px;
+  background-color: rgba(0, 196, 196, 0.4);
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -148,7 +145,7 @@ main .about-us .about-us-img img {
      object-fit: cover;
 }
 main .contact {
-  padding: 60px 0;
+  padding: 20px 0;
   text-align: center;
   border-top: 1px solid black;
 }
@@ -182,7 +179,7 @@ main .contact .contact-title a button:hover {
 
 footer {
   padding: 0 10px;
-  background: linear-gradient(207.8deg, #4598ff 16.69%, #7bc7e0 100%);
+  background: linear-gradient(207.8deg, #a09f9f 16.69%, #5dc1b9 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,5 +212,5 @@ footer .logo-footer {
   padding: 5px 0;
 }
 footer .logo-footer img {
-  width: 35vw;
+  width: 40vw;
 }/*# sourceMappingURL=styles.css.map */

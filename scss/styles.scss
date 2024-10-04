@@ -14,14 +14,14 @@ html{
 .nav-container{
     width: 100%;
     height: auto;
-    background: #209ab2;
+    background: #a09f9f;
     nav{
         .logo-nav{
             display: flex;
             justify-content: center;
-            padding-top: 20px;
+            padding-top: 10px;
             img{
-                width: 60vw;
+                width: 80vw;
             }
         }
         .menu{
@@ -52,7 +52,6 @@ html{
 main{
     width: 100%;
     .hero{
-        padding-bottom: 60px;
         .hero-title{
             color: black;
             padding-bottom: 32px;
@@ -94,7 +93,7 @@ main{
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;
             .product-card{
-                background-color: #318eff;
+                background-color: #009797bc;
                 scroll-snap-align: center;
                 margin: 0 10px;
                 width: 40vw;
@@ -133,8 +132,8 @@ main{
     }
 
     .about-us{
-        padding-top: 60px;
-        background-color: #83d9f657;
+        padding-top: 30px;
+        background-color: #00c4c466;
         .about-us-text{
             text-align: center;
             padding-bottom: 20px;
@@ -157,7 +156,7 @@ main{
     }
 
     .contact{
-        padding: 60px 0;
+        padding: 20px 0;
         text-align: center;
         border-top: 1px solid black;
         .contact-image{
@@ -196,10 +195,9 @@ main{
     }
 }
 
-
 footer{
     padding: 0 10px;
-    background: linear-gradient(207.8deg, #4598ff 16.69%, #7bc7e0 100%);
+    background: linear-gradient(207.8deg, #a09f9f 16.69%, #5dc1b9 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,7 +232,7 @@ footer{
     .logo-footer{
         padding: 5px 0;
         img{
-            width: 35vw;
+            width: 40vw;
         }
     }
 }
